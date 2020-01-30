@@ -101,7 +101,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  width: 240px;
+  width: 220px;
 }
 
 .name-logo {
@@ -147,7 +147,7 @@ body {
 }
 
 .bank-logo {
-  width: 75px;
+  width: 74px;
   justify-self: right;
 }
 
@@ -322,7 +322,7 @@ label {
   }
 
   .card-number {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 
   .bank-logo {
