@@ -65,7 +65,7 @@ body {
 .card-bg {
   display: block;
   position: absolute;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
 }
 
 .card-item {
@@ -101,7 +101,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  width: 220px;
+  width: 230px;
 }
 
 .name-logo {
@@ -327,7 +327,6 @@ label {
 
   .bank-logo {
     width: 85px;
-    justify-self: right;
   }
 
   .chip {
@@ -353,18 +352,10 @@ label {
 
   .black {
     height: 2.3rem;
-    background-color: black;
-  }
-
-  .auth {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 
   .auth p:first-child {
     font-size: 0.5rem;
-    text-transform: uppercase;
   }
 
   .auth p:last-child {
@@ -373,12 +364,7 @@ label {
 
   .white {
     height: 1.7rem;
-    background-color: var(--text-color);
-    color: #141414;
     font-size: 0.5rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     width: 180px;
   }
 
@@ -388,26 +374,17 @@ label {
   }
 
   .description {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.4rem;
     font-size: 0.379rem;
     margin-top: 0.7rem;
-    width: 100%;
   }
 
   .description > p:last-child {
     font-size: 0.5rem;
-    align-self: flex-end;
   }
 
   .download {
     font-size: 0.4rem;
-    border-left: 1px solid var(--text-color);
-    padding-left: 0.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .laptop {
@@ -477,18 +454,10 @@ label {
 
   .black {
     height: 3rem;
-    background-color: black;
-  }
-
-  .auth {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 
   .auth p:first-child {
     font-size: 0.5rem;
-    text-transform: uppercase;
   }
 
   .auth p:last-child {
@@ -497,24 +466,15 @@ label {
 
   .white {
     height: 2rem;
-    background-color: var(--text-color);
-    color: #141414;
     font-size: 0.8rem;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
     width: 200px;
   }
 
   .three-digit {
     margin-right: 0.4rem;
-    font-style: italic;
   }
 
   .description {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 0.4rem;
     font-size: 0.4rem;
     margin-top: 1.3rem;
     width: 100%;
@@ -522,16 +482,11 @@ label {
 
   .description > p:last-child {
     font-size: 0.5rem;
-    align-self: flex-end;
   }
 
   .download {
     font-size: 0.4rem;
-    border-left: 1px solid var(--text-color);
     padding-left: 0.4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
   .laptop {
