@@ -100,7 +100,7 @@ body {
 .card-number-container {
   display: grid;
   grid-template-columns: 1fr;
-  width: 240px;
+  max-width: 420px;
   margin: 0 auto;
 }
 
@@ -132,6 +132,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
+  width: 100%;
 }
 
 .number-initial {
@@ -142,6 +143,7 @@ body {
   font-size: 1.4rem;
   margin-bottom: -0.4rem;
   height: 2.7rem;
+  width: 100%;
 
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
 }
@@ -317,10 +319,6 @@ label {
     font-size: 10px;
   }
 
-  .card-number-container {
-    width: 260px;
-  }
-
   .card-number {
     font-size: 1.7rem;
   }
@@ -415,10 +413,6 @@ label {
 
   .number-initial {
     font-size: 10px;
-  }
-
-  .card-number-container {
-    width: 300px;
   }
 
   .card-number {
