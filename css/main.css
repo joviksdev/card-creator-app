@@ -101,7 +101,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
-  width: 230px;
+  width: 240px;
 }
 
 .name-logo {
